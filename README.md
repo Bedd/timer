@@ -1,5 +1,5 @@
 # README
-[![Build Status](https://travis-ci.org/Bedd/timer.svg?branch=master)](https://travis-ci.org/Bedd/timer) [![Latest Stable Version](https://poser.pugx.org/Bedd/timer/v/stable)](https://packagist.org/packages/Bedd/timer) [![Total Downloads](https://poser.pugx.org/Bedd/timer/downloads)](https://packagist.org/packages/Bedd/timer) [![Latest Unstable Version](https://poser.pugx.org/Bedd/timer/v/unstable)](https://packagist.org/packages/Bedd/timer) [![License](https://poser.pugx.org/Bedd/timer/license)](https://packagist.org/packages/Bedd/timer)
+[![Build Status](https://travis-ci.org/Bedd/timer.svg?branch=master)](https://travis-ci.org/Bedd/timer) [![Latest Stable Version](https://poser.pugx.org/Bedd/timer/v/stable)](https://packagist.org/packages/Bedd/timer) [![Total Downloads](https://poser.pugx.org/Bedd/timer/downloads)](https://packagist.org/packages/Bedd/timer) [![Latest Unstable Version](https://poser.pugx.org/Bedd/timer/v/unstable)](https://packagist.org/packages/Bedd/timer) [![License](https://poser.pugx.org/Bedd/timer/license)](https://packagist.org/packages/Bedd/timer)[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/Bedd/timer/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/Bedd/timer/?branch=master)
 
 ## Installation
 The best way to install this library is to use [composer](https://getcomposer.org/).
