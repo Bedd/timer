@@ -105,7 +105,7 @@ class Timer
     public static function getInstance($name)
     {
         if (!is_string($name)) {
-            throw new \InvalidArgumentException('$name should be a string. a '.gettype($name). ' is given.');
+            throw new \InvalidArgumentException('$name should be a string. a '.gettype($name).' is given.');
         }
         if (!isset(self::$timers[$name])) {
             self::$timers[$name] = new self();
@@ -154,7 +154,7 @@ class Timer
         $this->endLap();
         $this->status = self::STATUS_RUNNING;
         $this->laps[] = [
-            'name' => $name ? $name : count($this->laps) +1,
+            'name' => $name ? $name : count($this->laps) + 1,
             'start' => $this->getCurrentTime(),
             'end' => -1,
             'total' => -1,
@@ -169,7 +169,7 @@ class Timer
         if (empty($this->laps)) {
             return;
         }
-        $lapIndex = count($this->laps) -1;
+        $lapIndex = count($this->laps) - 1;
         $this->laps[$lapIndex]['end'] = $this->getCurrentTime();
         $this->laps[$lapIndex]['total'] = $this->laps[$lapIndex]['end'] - $this->laps[$lapIndex]['start'];
     }
