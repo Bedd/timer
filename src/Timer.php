@@ -180,10 +180,10 @@ class Timer
     public function reset()
     {
         $this->status = self::STATUS_INITIALIZED;
-        $this->startTime = 0;
-        $this->endTime = 0;
-        $this->pauseTime = 0;
-        $this->totalPauseTime = 0;
+        $this->startTime = 0.0;
+        $this->endTime = 0.0;
+        $this->pauseTime = 0.0;
+        $this->totalPauseTime = 0.0;
         $this->laps = [];
     }
 
@@ -230,7 +230,7 @@ class Timer
         }
         $this->status = self::STATUS_RUNNING;
         $this->totalPauseTime = $this->getCurrentTime() - $this->pauseTime;
-        $this->pauseTime = 0;
+        $this->pauseTime = 0.0;
     }
 
     /**
